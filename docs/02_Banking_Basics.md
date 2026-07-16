@@ -8,115 +8,39 @@ How does a retail bank actually make money?
 ## 01 Commercial Bank
 Idea: Interest Differential
 
-```mermaid
-flowchart TD
+### 1. Bank Earn Interest by Lending Money
 
-    A[Households deposit money into Bank] --> B[Bank receives deposits]
+Banks use a portion of the deposits they receive to provide loans to households and businesses. When a bank issues a loan, it charges the borrower an interest rate, which serves as the bank's income (revenue) from lending.
 
-    B --> C[Bank lends deposits to Borrowers]
+#### Example: 
 
-    C --> D[Borrower receives loan]
-    D --> E[Example:
-    Loan amount = $10,000
-    Loan interest rate = 5%]
+- Loan amount: $10,000
+- Interest rate: 5% per year
+- Interest charge: 0.05*$10,000 = $500
 
-    E --> F[Borrower repays:
-    Principal $10,000 + Interest $500]
+Thus, *total amount the borrower must repay*: $10,000 + $500 = $10,500
 
-    F --> G[Bank receives lending interest income:
-    $500]
+### 2. Banks Pay Interest to Depositors
 
+Banks also pay interest to customers who keep their money in savings or fixed deposit accounts. This interest is an expense for the bank because it is paid to depositors.
 
-    B --> H[Bank pays interest to Depositors]
+#### Example:
 
-    H --> I[Example:
-    Deposit amount = $20,000
-    Deposit interest rate = 3%]
+- Deposit amount:$20,000
+- Interest rate: 2% per year
+- Interest earned by depositor: 0.02*$20,000 = $400
 
-    I --> J[Deposit remains fully deposited until maturity]
+Thus, *total amount bank pays the depositor* is $400
 
-    J --> K[Bank pays depositor:
-    $20,000 x 3% = $600]
+### Key Idea #1
 
+Banks earn profit from the difference between the interest they receive on loans and the interest they pay to depositors. This difference is known as the interest spread or net interest margin (NIM). 
 
-    G --> L[Bank Interest Income]
-    K --> M[Bank Interest Expense]
-
-    L --> N[Interest Differential / Net Interest Margin]
-
-    M --> N
-
-    N --> O[Bank Profit from Financial Intermediation]
-
-Thus, this is the general system of how bank exists. However, in the case deposits being withdrawn by the their depositor, the calculation of interest paid by the bank to their customers may differ based on bank's rule.
-
-
----
-
-# Flowchart 2 — Withdrawal Case: Methods of Calculating Deposit Interest
-
-This begins **only after the depositor withdraws part of the savings**.
-
-```md
-```mermaid
-flowchart TD
-
-    A[Depositor has savings account] --> B[Withdrawal occurs before interest payment date]
-
-    B --> C[Deposit balance changes]
-
-    C --> D{Which interest calculation method does the bank apply?}
-
-
-    D -->|Method 1:
-    Daily Balance Method| E[Interest calculated based on daily account balance]
-
-    E --> F[Example:
-    Day 1-100:
-    Balance = $20,000
-
-    Day 101-365:
-    Balance = $15,000]
-
-    F --> G[Interest calculated separately for each period]
-
-
-    D -->|Method 2:
-    Minimum Balance Method| H[Bank identifies lowest balance during period]
-
-    H --> I[Example:
-    Initial deposit = $20,000
-
-    Withdrawal = $5,000
-
-    Minimum balance = $15,000]
-
-    I --> J[Interest:
-    $15,000 x 3% = $450]
-
-
-    D -->|Method 3:
-    Average Balance Method| K[Bank calculates average balance during period]
-
-    K --> L[Example:
-    Average balance = $17,500]
-
-    L --> M[Interest:
-    $17,500 x 3% = $525]
-
-
-    D -->|Method 4:
-    Maturity Balance Method| N[Only money remaining until maturity receives interest]
-
-    N --> O[Withdrawn amount excluded]
-
-    O --> P[Interest calculated on remaining matured deposit]
-
-
-    G --> Q[Depositor receives interest payment]
-    J --> Q
-    M --> Q
-    P --> Q
+##### In this example: 
+Net Interest Margin = Interest received on loans - Interest paid to depositors
+                    = $500 - $400
+                    = $100
 
 ## 02 Investment Bank
 
+Instead of lending loan like commercial banks, investment banks make money by helping the investor raise money, sell companies, buy companies and access financial market.
