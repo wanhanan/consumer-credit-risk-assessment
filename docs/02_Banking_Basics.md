@@ -1,11 +1,15 @@
 # Banking Basics
 This document explains the banking concepts relevant to the Consumer Credit Risk Assessment project.
 
-## Main Question
+## 01 What is a retail bank?
+Retail banks serve individual consumers with everyday financial services like savings accounts, credit cards, and mortgages
 
-How does a retail bank actually make money?
+## 02 Sources of Bank Funding
+1. Customer deposits (80-90% of customer base)
+2. 
+3. 
+## 03 How does a retail bank actually make money?
 
-## 01 Commercial Bank
 Idea: Interest Differential
 
 ### A. Bank Earn Interest by Lending Money
@@ -41,18 +45,7 @@ Net Interest Margin = Interest received on loans - Interest paid to depositors
                     = $500 - $400
                     = $100
 
-### Extra: How much interest paid to depositors in the case of money withdrawal?
+## 04 Why Banks Cannot Approve Every Loan?
 
-In the case where a portion of the money is withdrawn before the bank pays interest to its depositors, on what principal amount will the bank calculate the interest? There are several methods for this calculation.
-
-## 02 Investment Bank
-
-Instead of lending loan like commercial banks, investment banks make money by helping the investor raise money, sell companies, buy companies and access financial market.
-
-### A. Underwriting stocks (IPO)
-
-### B. Underwriting bonds
-
-### C. Merger & Acquisitions (M&A)
-
+## 05 Why Loan Involves Risk?
 
