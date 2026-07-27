@@ -23,22 +23,7 @@ The goal of a retail bank is to manage risk while maintaining its profitability,
 
 # 3. The Credit Approval Process
 
-Customer submits loan application
-            │
-            ▼
-Collect financial information
-            │
-            ▼
-Assess credit risk
-            │
-            ▼
-Estimate probability of default
-            │
-            ▼
-Approve, reject, or request additional information
-            │
-            ▼
-Monitor the loan after approval
+<img width="326" height="337" alt="image" src="https://github.com/user-attachments/assets/cdb5f7ae-20c4-4501-b23a-e63a763c17cf" />
 
 # 4. Key Components of Credit Risk
 ## • Probability of Default (PD)
