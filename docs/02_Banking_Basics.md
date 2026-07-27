@@ -5,9 +5,15 @@ This document explains the banking concepts relevant to the Consumer Credit Risk
 Retail banks serve individual consumers with everyday financial services like savings accounts, credit cards, and mortgages
 
 ## 02 Sources of Bank Funding
-1. Customer deposits (80-90% of customer base)
-2. 
-3. 
+1. Liabilities (Borrowed Money)
+     a. Customer deposits
+     b. Central Bank borrowing
+     c. Issuing bonds or security
+3. Equity (Owner's Money)
+     a. Money raised by issuing shares
+     b. Initial investment form shareholder
+     c. Retained profits
+
 ## 03 How does a retail bank actually make money?
 
 Idea: Interest Differential
@@ -46,6 +52,11 @@ Net Interest Margin = Interest received on loans - Interest paid to depositors
                     = $100
 
 ## 04 Why Banks Cannot Approve Every Loan?
+1. *Credit risk*: The risk of the borrower not being able to repay the loan. This will causes the bank lost both their principal and interest
+2. *Banks are lending other people's money*: If borrower does not repay the money, the bank won't be having enough money for the customer withdraw their money from their account. Hence, this will affect the customer's trust. In a long term, the customers will no longer save their money in the bank causing the bank loses their source of fund. Worst case scenario, the bank possibly experience a bank run.
 
 ## 05 Why Loan Involves Risk?
-
+1. *The borrower may lose their ability to pay*: When the loan is approved, the borrower may have a stable income. However, in the next few years, unexpected events may happen causing the borrower to lose their job/fail their business/become seriously ill.
+2. *The borrower choose not to pay*
+3. *The collateral may not cover the loss*
+4. *Future conditions are uncertain*
