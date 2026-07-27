@@ -8,13 +8,13 @@ Retail banks provide financial services to individual consumers rather than busi
 Retail banks obtain fund from two main sources which are:
 
 1. Liabilities (Borrowed Money)
-     a. Customer deposits
-     b. Central Bank borrowing
-     c. Issuing bonds or security
+   a. Customer deposits
+   b. Central Bank borrowing
+   c. Issuing bonds or security
 3. Equity (Shareholder's Money)
-     a. Money raised by issuing shares
-     b. Initial investment form shareholder
-     c. Retained profits
+   a. Money raised by issuing shares
+   b. Initial investment form shareholder
+   c. Retained profits
 
 ## 03 How does a retail bank actually make money?
 
