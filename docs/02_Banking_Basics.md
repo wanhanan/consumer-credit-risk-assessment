@@ -2,19 +2,23 @@
 This document explains the banking concepts relevant to the Consumer Credit Risk Assessment project.
 
 ## 01 What is a retail bank?
-Retail banks serve individual consumers with everyday financial services like savings accounts, credit cards, and mortgages
+Retail banks provide financial services to individual consumers rather than businesses or governments. Their core products include savings accounts, current accounts, personal loans, mortgages, and credit cards. Because retail banks lend directly to consumers, managing consumer credit risk is one of their most important business functions.
 
 ## 02 Sources of Bank Funding
+Retail banks obtain fund from two main sources which are:
+
 1. Liabilities (Borrowed Money)
      a. Customer deposits
      b. Central Bank borrowing
      c. Issuing bonds or security
-3. Equity (Owner's Money)
+3. Equity (Shareholder's Money)
      a. Money raised by issuing shares
      b. Initial investment form shareholder
      c. Retained profits
 
 ## 03 How does a retail bank actually make money?
+
+Retail banks generate revenue from several sources. The largest source of income for most retail banks is interest earned on loans.
 
 Idea: Interest Differential
 
@@ -47,16 +51,37 @@ Thus, *total amount bank pays the depositor* is $400
 Banks earn profit from the difference between the interest they receive on loans and the interest they pay to depositors. This difference is known as the interest spread or net interest margin (NIM). 
 
 ##### In this example: 
-Net Interest Margin = Interest received on loans - Interest paid to depositors
+Net Interest Income = Interest received on loans - Interest paid to depositors
                     = $500 - $400
                     = $100
 
-## 04 Why Banks Cannot Approve Every Loan?
-1. *Credit risk*: The risk of the borrower not being able to repay the loan. This will causes the bank lost both their principal and interest
-2. *Banks are lending other people's money*: If borrower does not repay the money, the bank won't be having enough money for the customer withdraw their money from their account. Hence, this will affect the customer's trust. In a long term, the customers will no longer save their money in the bank causing the bank loses their source of fund. Worst case scenario, the bank possibly experience a bank run.
+Besides interest income, retail banks also earn revenue from 
+- ATM fees
+- Credit card annual fees
+- Foreign exchange fees
+- Wealth management fees
+- Insurance commissions
+
+## 04 Balancing Profit and Risk
+A retail bank seeks to maximize profitability by issuing loans that generate interest income. However, lending to every applicant would expose the bank to excessive credit risk.
+
+Conversely, rejecting every risky applicant would reduce loan losses but also reduce interest income and business growth.
+
+Therefore, the bank must strike a balance between profitability and risk management.
+
+Credit risk assessment helps banks achieve this balance by identifying applicants who are likely to repay their loans while minimizing expected losses.
 
 ## 05 Why Loan Involves Risk?
-1. *The borrower may lose their ability to pay*: When the loan is approved, the borrower may have a stable income. However, in the next few years, unexpected events may happen causing the borrower to lose their job/fail their business/become seriously ill.
-2. *The borrower choose not to pay*
-3. *The collateral may not cover the loss*
-4. *Future conditions are uncertain*
+1. *The borrower may lose their ability to pay*: When the loan is approved, the borrower may have a stable income. However, in the next few years, unexpected events may happen causing the borrower to lose their job /fail their business/become seriously ill.
+2. *Behavioural risk*: The borrower choose not to pay
+3. *Collateral risk*: The collateral may not cover the loss
+4. *Economic risk*: Future conditions are uncertain
+
+## 06 Why Banks Cannot Approve Every Loan?
+When banks approve loans, they are lending money that largely comes from customer deposits.
+
+If borrowers fail to repay their loans, the bank may suffer financial losses and may have less liquidity available to meet customer withdrawal requests.
+
+Although banks maintain capital and liquidity buffers to reduce this risk, a large number of loan defaults can weaken public confidence and threaten the bank's financial stability.
+
+Therefore, banks carefully assess the creditworthiness of every applicant before approving a loan.
