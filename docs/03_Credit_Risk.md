@@ -28,7 +28,7 @@ The goal of a retail bank is to manage risk while maintaining its profitability,
 # 4. Key Components of Credit Risk
 ## • Probability of Default (PD)
 The probability that a borrower will default within a specified period (typically one year).
-The higher the PD, the higher risk of giving credit to that person.
+A higher Probability of Default indicates that the applicant is more likely to default on the loan and is therefore considered a higher credit risk.
 
 ## • Loss Given Default (LGD)
 If the borrower defaults, how much money will the bank actually lose?
@@ -41,7 +41,7 @@ The outstanding loan that borrower not able to repay.
 For example, the original loan amount is $20,000 and the borrower has successfully paid $8,000. Thus, the outstanding balance or known as EAD is $12,000.
 
 ## • Expected Loss
-Banks would not think of what is the probability of the person will default but they would think of the average amount of expected loss. Thus, the bank will consider the probability of the individual default and the actual loss suffered given default. 
+Banks are interested not only in whether a borrower might default, but also in the financial impact if that default occurs. Expected Loss combines the likelihood of default, the amount owed at default, and the proportion of the loan that is unlikely to be recovered.
 Thus, the formula of Expected Loss is EL = PD × LGD × EAD.
 For example:
 PD = 10% , LGD = 25%, EAD = $12,000
@@ -56,7 +56,14 @@ Imagine 3 borrowers:
 This shows why banks cannot rely only on the probability of default, they must also consider how much is at risk and how much can be recovered.
 
 # 5. Credit Risk Assessment in Practice
+Retail banks assess credit risk before approving a loan application. Traditionally, loan officers relied on manual reviews and professional judgment to evaluate an applicant's financial situation. Today, banks increasingly support these decisions using statistical and machine learning models.
 
-7. Why Data Analytics Matters
+These models analyze historical loan data to estimate the probability that an applicant will default. The model's prediction is combined with other business considerations, such as lending policies, affordability assessments, and regulatory requirements, before a final lending decision is made.
 
-8. Transition to the Dataset
+Using data-driven models helps banks:
+
+- Make more consistent lending decisions
+- Identify high-risk applicants earlier
+- Reduce expected credit losses
+- Improve operational efficiency
+- Balance profitability with acceptable levels of risk
