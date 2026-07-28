@@ -67,3 +67,7 @@ Using data-driven models helps banks:
 - Reduce expected credit losses
 - Improve operational efficiency
 - Balance profitability with acceptable levels of risk
+
+Understanding credit risk provides the business context for this project. However, accurately assessing a borrower's creditworthiness requires more than theoretical knowledge.
+
+The next phase focuses on exploring historical consumer loan data to identify borrower characteristics associated with loan default. By understanding the available data, we can develop a predictive model that supports more informed lending decisions.
