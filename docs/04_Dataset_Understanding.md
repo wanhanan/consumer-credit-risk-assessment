@@ -2,6 +2,7 @@
 
 ### Source
 Lending Club Loan Data from Kaggle
+
 https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv?resource=download 
 
 ### Description
@@ -20,11 +21,6 @@ NA
 
 ### Target variable
 loan status (Did the borrower repay?)
----
-
-## Business Interpretation
-
----
 
 ## Variable Categories
 
@@ -67,7 +63,6 @@ total_bal_ex_mort
 
 ### Loan Outcome
 loan_status
----
 
 ## Initial Business Hypotheses
 1. Higher DTI leads to higher default rates	> Borrowers with higher debt burdens may struggle to repay.
