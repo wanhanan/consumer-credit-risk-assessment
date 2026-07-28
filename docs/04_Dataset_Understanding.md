@@ -25,44 +25,44 @@ loan status (Did the borrower repay?)
 ## Variable Categories
 
 ### Applicant Information (Who is applying?)
-emp_length
-emp_title
-home_ownership
-annual_inc
-verification_status
-addr_state
-zip_code
+- emp_length
+- emp_title
+- home_ownership
+- annual_inc
+- verification_status
+- addr_state
+- zip_code
 
 ### Loan Information (What kind of loan is the bank issuing?)
-loan_amnt
-funded_amnt
-funded_amnt_inv
-term
-int_rate
-installment *not found*
-purpose
-grade
-sub_grade
+- loan_amnt
+- funded_amnt
+- funded_amnt_inv
+- term
+- int_rate
+- installment *not found*
+- purpose
+- grade
+- sub_grade
 
 ### Credit History (Has the borrower handled credit responsibly in the past?)
-delinq_2yrs
-earliest_cr_line
-inq_last_6mths
-open_acc
-pub_rec
-revol_bal
-revol_util
-total_acc
-mort_acc *not found*
+- delinq_2yrs
+- earliest_cr_line
+- inq_last_6mths
+- open_acc
+- pub_rec
+- revol_bal
+- revol_util
+- total_acc
+- mort_acc *not found*
 
 ### Financial Health (Can this borrower afford another loan?)
-dti
-tot_cur_bal
-tot_hi_cred_lim
-total_bal_ex_mort
+- dti
+- tot_cur_bal
+- tot_hi_cred_lim
+- total_bal_ex_mort
 
 ### Loan Outcome
-loan_status
+- loan_status
 
 ## Initial Business Hypotheses
 1. Higher DTI leads to higher default rates	> Borrowers with higher debt burdens may struggle to repay.
